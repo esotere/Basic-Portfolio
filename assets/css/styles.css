@@ -1,0 +1,21 @@
+.boxed {
+    border-block-end-width: 100%;
+    background-color: #4aaaa5;
+}
+
+.inline {
+    background-color: darkgrey;
+    text-align: center;
+    background-color: darkgray;
+    height: 2em;
+    margin-top: 0;
+    padding: 3px;
+}
+
+.floating-box {
+    width: 4em;
+    height: 4em;
+    float: right;
+    border: 1px;
+
+}

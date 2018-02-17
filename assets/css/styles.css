@@ -1,21 +1,29 @@
+.top {
+    width: 6em;
+    border: 1px solid green ;
+
+}
+
 .boxed {
-    border-block-end-width: 100%;
-    background-color: #4aaaa5;
-}
-
-.inline {
-    background-color: darkgrey;
+    border: 1px solid green ;
+    width: 35em;
     text-align: center;
-    background-color: darkgray;
-    height: 2em;
-    margin-top: 0;
-    padding: 3px;
+    background-color: white;
+    margin-top: 10px;
+  }
+
+.last_dv {
+    background-color:black;
 }
 
-.floating-box {
-    width: 4em;
-    height: 4em;
+.box {
+    border: 1px solid green ;
+    width: 260px;
+    height: 260px;
+    background-color: blue;
     float: right;
-    border: 1px;
+}
 
+.very_last_dv {
+    background-color: darkgray;
 }

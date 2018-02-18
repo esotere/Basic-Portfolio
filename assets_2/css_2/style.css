@@ -1,12 +1,68 @@
-h1 {
-    font-size: 3em;
-    font-weight: bold;
+a {
+    text-decoration: none;
+     
+}
+
+a:link{
+    color: lightgrey;
+}
+
+a:visited{
+color: lightgrey;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:active{
+    color: darkgrey;
+}
     
+h1 {
+    /* font-size: 2em; */
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-top: .5em;
+    
+}
+
+ul {
+list-style-type: none;
+margin: 10px;
+padding: 10px;
+font-size: 1.5em;
+color: lightgray;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+    padding: 0;
+}
+
+.A {
+    color: white;
+    font-size: 2em;
+}
+
+.B {
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 2em;
+}
+
+.C {
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 1em;
 }
 
 p {
     line-height: 1.5em;
     margin-top: 0;
+    margin: 0 3px 3px 3px;
+    padding: 3px;
 }
 
 header {
@@ -15,16 +71,20 @@ header {
 }
 
 .top {
-    width: 9em;
-    background-color: #4aaaa5;
-    border: 1px solid #9E9E9E;
+    width: 100%;
+    background-color: white;
+    border: 0px solid #9E9E9E;
+    border-bottom: 2px solid #9E9E9E;
     text-align: center;
+    overflow: hidden;
 }
 
 .top-1 {
-    width: 9em;
+    width: 13em;
     background-color: #4aaaa5;
     text-align: center;
+    margin-left: 100px;
+    float: left;
 }
 
 .top-2 {
@@ -40,16 +100,17 @@ header {
 .inner-boxed-left {
     /* border: 1px solid green; */
     width: 35em;
-    text-align: center;
+    /* text-align: center; */
+    padding: 1em;
     margin-top: 20px;
-    margin: 8em 0 8em 8em;
+    margin: 8em 0 6em 6em;
     background-color: white;
     border: 1px solid #9E9E9E;
     float: left;
 }
 
 .inner-boxed-right {
-    width: 12em;
+    width: 11em;
     height: 9em;
     text-align: center;
     margin: 2em;
@@ -66,6 +127,7 @@ header {
 
 .inner-inner-1 {
     float: left;
+    
 }
 
 .inner-inner-2 {
@@ -73,15 +135,20 @@ header {
 }
 
 .inner-inner-3 {
-    float: right;
+    
     align-self: auto;
 }
 
 .last_dv {
-    background-color: #4aaaa5;
+    background-color: grey;
     margin-top: 0;
 }
 
 .very_last_dv {
-    background-color: darkgray;
+    background-color: #4aaaa5;
+    height: 1em;
+}
+
+.nav{
+    float: right;
 }
